@@ -42,5 +42,5 @@ for current_ip in usable_ips:
         print(f"{current_ip}   - DOWN ({ping_result})")
     if "ms" in ping_result:
         print(f"{current_ip}   - UP ({ping_result})")
-    if ping_result == "Timed Out":
+    if ping_result == "Timed Out": #
         print(f"{current_ip}   - ERROR ({ping_result})")
