@@ -43,3 +43,4 @@ for current_ip in usable_ips:
         print(f"{current_ip}   - UP ({ping_result})")
     if ping_result == "Timed Out": # If the connection times out instead of just not returning, gives an error
         print(f"{current_ip}   - ERROR ({ping_result})")
+print("Scan Complete")
